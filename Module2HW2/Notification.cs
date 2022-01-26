@@ -8,6 +8,9 @@ namespace Module2HW2
 {
     internal class Notification
     {
-
+        public void NotificationUser()
+        {
+            Console.WriteLine($"Your order formed with these products: ");
+        }
     }
 }

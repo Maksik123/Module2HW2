@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Module2HW2
 {
-    internal class Basket
+    public class ShoppingCart
     {
-
+        public string Shopping { get; set; }
     }
 }

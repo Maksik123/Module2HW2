@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Module2HW2
 {
-    internal class Products
+    public class Products
     {
-
+        public string[] Cars = new string[] { "Mazda", "Kia", "Lada" };
     }
 }
