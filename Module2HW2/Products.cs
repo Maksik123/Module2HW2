@@ -8,6 +8,10 @@ namespace Module2HW2
 {
     public class Products
     {
-        public string[] Cars = new string[] { "Mazda", "Kia", "Lada" };
+        public string Name { get; set; }
+
+        public int Id { get; set; }
+
+        public decimal Price { get; set; }
     }
 }

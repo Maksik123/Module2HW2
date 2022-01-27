@@ -8,6 +8,11 @@ namespace Module2HW2
 {
     public class ShoppingCart
     {
-        public string Shopping { get; set; }
+        public Products[] ourShoppingCart = new Products[3];
+
+        public int[] ShoppingCartId { get; set; }
+
+        public decimal Total { get; set; }
+
     }
 }
