@@ -23,5 +23,23 @@ namespace Module2HW2
                 Console.WriteLine($"Id: {i.Id} Name: {i.Name} Price: {i.Price}");
             }
         }
+
+        public Products[] GetAllProducts()
+        {
+            return OurCatalogue;
+        }
+
+        public Products GetOneProduct(int id)
+        {
+            foreach (Products product in GetAllProducts())
+            {
+                if (product.Id == id)
+                {
+                    return product;
+                }
+            }
+
+            return new Products();
+        }
     }
 }
