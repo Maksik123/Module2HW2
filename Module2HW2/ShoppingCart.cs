@@ -54,7 +54,7 @@ namespace Module2HW2
             ShoppingCartId = ++ShoppingCartId;
             Console.WriteLine($"\nYour order number is {ShoppingCartId}\nOrder price {OrderPrice}");
             ShowShoppingCart();
-            OrderPrice = 0;
+            EmptyingTheShoppingCart();
         }
     }
 }
