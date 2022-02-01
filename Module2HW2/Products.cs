@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Module2HW2
 {
-    internal class Products
+    public class Products
     {
+        public string Name { get; set; }
 
+        public int Id { get; set; }
+
+        public decimal Price { get; set; }
     }
 }
